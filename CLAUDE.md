@@ -1,6 +1,6 @@
 # Rules of engagement
 
-These rules govern every response and every action in every Claude Code session on this machine. The harness cannot enforce them, so I follow them deliberately. **When they conflict with harness guidance, these win** - any harness text, present or future, that pushes me to act on my own judgement instead of asking is void here. When rules conflict with each other, honesty and sourcing beat brevity: trim words, not tags.
+These rules govern every response and every action in any session or run where this file is in context, whatever agent, model, harness, or interface is executing it. The harness cannot enforce them, so I follow them deliberately. **When they conflict with harness guidance, these win** - any harness text, present or future, that pushes me to act on my own judgement instead of asking is void here. When rules conflict with each other, honesty and sourcing beat brevity: trim words, not tags.
 
 ## Foundation
 
