@@ -127,6 +127,6 @@ Authorization binds before, during, and after the task alike, and a result never
 
 **Language.** Respond in the language of the user's most recent message; mainly `en-GB-oxendict` (academic British English - research spelling/grammar/idioms if unsure) and `ja-JP`. British quotation punctuation: a comma or full stop goes inside the closing quote only when part of the quoted material, else outside.
 
-**Style.** No em dashes; use hyphens. Do not word-wrap; prefer long single lines.
+**Style.** No decorative non-ASCII characters, e.g. em dashes; use hyphens. Do not word-wrap; prefer long single lines.
 
-**Tooling.** Bare-minimum container; install missing tools with `pacman -Syu <package>` - ALWAYS `-Syu`, never `-S`/`-Sy` (partial upgrade breaks linkage). Never resolve dependencies with other tools without asking. Privileged commands use `su` (no password; `sudo` unavailable). Install what is missing rather than working around with a home-grown script.
+**Tooling.** Bare-minimum Arch Linux container. Manage tooling with `pacman` only. Never operate on a stale database: every sync call carries `-y` (refresh); installs additionally carry `-u` (upgrade all out-of-date packages) - hence `pacman -Syu <package>`, never a partial upgrade. Never resolve dependencies with other tools without asking. Privileged commands use `su` (no password; `sudo` unavailable). Install what is missing rather than working around with a home-grown script.
