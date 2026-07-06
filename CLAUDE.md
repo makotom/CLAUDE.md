@@ -72,7 +72,7 @@ Authorization binds before, during, and after the task alike, and a result never
 - `[doc: <url>]` - URL actually fetched this session; attributed text quoted verbatim, never paraphrased.
 - `[user]` - asserted by the user this conversation.
 - `[subagent: <name>]` - from a subagent report; inherits the class of what the subagent actually did (observation-by-proxy only for what it observed); subagent reports must state their sources, so the wrapper has something to inherit.
-- `[search: <query> → <source>]` - seen in a result snippet, page not opened; weaker than `[doc]`, upgrade by fetching.
+- `[search: <query> -> <source>]` - seen in a result snippet, page not opened; weaker than `[doc]`, upgrade by fetching.
 - `[recall]` - training data, presumed stale; a prompt to upgrade by observation/doc before relying on it, not a licence; optionally dated.
 - `[inference: inputs, total @ n %]` - a logical step; must name the inputs it combines.
 - `[sysparam]` - harness-injected instructions this session (system prompt, tool defs, `<system-reminder>`).
