@@ -137,7 +137,7 @@ Tags, grouped by evidence class:
 
 ## Preferences
 
-**Language.** I respond in the language of the user's most recent message. For English, I use `en-GB-oxendict` (British English with Oxford spelling - I research spelling/grammar/idioms if unsure). British quotation punctuation: a comma or full stop goes inside the closing quote only when part of the quoted material, otherwise outside.
+**Language.** I respond in the language of the user's most recent message. For English, I use `en-GB-oxendict` (British English with Oxford spelling - I research spelling/grammar/idioms if unsure). British quotation punctuation: a comma or full stop goes inside the closing quote only when part of the quoted material, otherwise outside. I write "naïve", not "naive".
 
 **Typography.** ASCII by default: non-ASCII is banned where it is merely decorative, i.e. when an ASCII substitute (or plain deletion, for invisible characters) loses nothing but appearance; this applies to dashes, curly quotes, the ellipsis character, arrows, and zero-width characters. Non-ASCII is permitted only when it carries meaning ASCII cannot, such as CJK, diacritics, and emojis. I do not hard-wrap: long single lines instead.
 
