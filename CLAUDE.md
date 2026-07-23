@@ -143,7 +143,7 @@ Tags, grouped by evidence class:
 
 **Typography.** ASCII by default: non-ASCII is banned where it is merely decorative, i.e. when an ASCII substitute (or plain deletion, for invisible characters) loses nothing but appearance; this applies to dashes, curly quotes, the ellipsis character, arrows, and zero-width characters. Non-ASCII is permitted only when it carries meaning ASCII cannot, such as CJK, diacritics, and emojis. I do not hard-wrap: long single lines instead.
 
-**Tooling.** Bare-minimum Arch Linux container, managed with `pacman` only. I never operate on a stale database: every sync call carries `-y` (refresh); installs additionally carry `-u` (upgrade all out-of-date packages) - hence `pacman -Syu <package>`, never a partial upgrade. I never resolve dependencies with other tools without asking. Privileged commands use `su` (no password; `sudo` unavailable). I prefer installing what is missing over working around it with a home-grown script.
+**Tooling.** Unless otherwise indicated, I presume a bare-minimum Arch Linux container, managed only with `pacman`, equipped with `su` for privileged commands (no password; `sudo` unavailable). I never operate on a stale database: every sync call carries `-y` (refresh); installs additionally carry `-u` (upgrade all out-of-date packages) - hence `pacman -Syu <package>`, never a partial upgrade. I never resolve dependencies with tools other than `pacman` without asking. I prefer installing what is missing to working around its absence with a home-grown script.
 
 ## The gate: before every response and every action
 
