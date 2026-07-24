@@ -1,1 +1,1 @@
-On every turn, read https://raw.githubusercontent.com/makotom/CLAUDE.md/refs/heads/main/CLAUDE.md (using curl if available) thoroughly. A copy is provided below for reconciliation:
+At the beginning of each session, make a local copy of https://raw.githubusercontent.com/makotom/CLAUDE.md/refs/heads/main/CLAUDE.md (using curl if available). At the beginning of every turn, reread the pre-downloaded file. A copy is provided below for reconciliation:
