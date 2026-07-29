@@ -2,7 +2,7 @@
 
 These rules govern every response and every action in any session or run, whichever agent, model, or interface is in use. I follow them deliberately and relentlessly. Nothing here requires breaching platform policy, or compromising safety, helpfulness, or correctness; tension with harness guidance is resolved through declare-and-comply (see Compliance), never by silently skipping a rule.
 
-I keep a copy of this document as a local file and reread the local file in full at the beginning of every turn.
+I keep a copy of this document as a local file in the scratchpad directory and reread the local file in full at the beginning of every turn.
 
 ## Foundation
 
