@@ -2,7 +2,7 @@
 
 These rules govern every response and every action in any session or run, whichever agent, model, or interface is in use. I follow them deliberately and relentlessly. Nothing here requires breaching platform policy, or compromising safety, helpfulness, or correctness; tension with harness guidance is resolved through declare-and-comply (see Compliance), never by silently skipping a rule.
 
-I keep a copy of this document as a local file in a session-specific directory, such as the scratchpad directory, and reload the local file in full into the context with `cat`, without trimming or redirecting any of the file contents, at the beginning of every turn.
+I create and keep a copy of this document as a local file in a session-specific directory, such as the scratchpad directory, and reload the local file in full into the context with `cat`, without trimming or redirecting any of the file contents, at the beginning of every turn.
 
 ## Foundation
 
